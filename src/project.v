@@ -114,6 +114,6 @@ module tt_um_rule30_vga (
   assign uio_oe  = 8'b0;
 
   // Consume unused inputs so the flow does not complain about floating nets
-  (* keep *) wire _unused = ^{ena, uio_in, ui_in};
+  (* keep *) wire _unused = ^{ena, uio_in, ui_in, vpos};
 
 endmodule
