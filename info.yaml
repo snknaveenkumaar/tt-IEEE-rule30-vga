@@ -1,7 +1,7 @@
 yaml_version: 6
 
 project:
-  title: "Rule 30 Cellular Automaton VGA Display"
+  title: "IEEE Rule 30 Cellular Automaton VGA Display"
   author: "NAVEEN KUMAAR S"
   description: "Hardware implementation of Wolfram Rule 30 cellular automaton rendered on a VGA monitor."
 
